@@ -6,7 +6,7 @@
   "dev_bench":  6261988,
 
   "build": {
-    "path": "scripts",
+    "path": "",
     "compilers": ["make"],
     "cpuflags": ["AVX2", "POPCNT"],
     "systems": ["Linux"]
