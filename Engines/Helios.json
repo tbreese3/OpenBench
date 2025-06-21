@@ -13,8 +13,8 @@
     "systems": ["Linux"]
   },
 
-  "exec": "./Helios",          // produced by jpackage in the build script
-  "bench": "bench",            // leave as-is; Helios doesn't ship cutechess bench
+  "exec": "./Helios",
+  "bench": "bench",
   "protocol": "uci",
 
   "test_presets": {
