@@ -24,6 +24,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://heliosbench.com",
+    "https://www.heliosbench.com",
+]
+
 HTML_MINIFY   = True
 APPEND_SLASH  = True
 
