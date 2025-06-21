@@ -3,12 +3,12 @@
   "nps": 15000000,
   "source": "https://github.com/tbreese3/Helios",
 
-  "build": {
-    "path": "scripts",
-    "compilers": ["make"],
-    "cpuflags": ["AVX2", "POPCNT"],
-    "systems": ["Linux"]
-  },
+"build": {
+  "path": "",                
+  "compilers": ["make"],
+  "cpuflags": ["AVX2","POPCNT"],
+  "systems": ["Linux"]
+},
 
   "test_presets": {
     "default": {
