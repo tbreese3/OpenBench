@@ -5,7 +5,7 @@
 
     "build" : {
         "path"      : "scripts/build_helios.sh",
-        "compilers" : ["g++"],
+        "compilers" : [],
         "cpuflags"  : ["AVX2", "POPCNT"],
         "systems"   : ["Linux"]
     },
