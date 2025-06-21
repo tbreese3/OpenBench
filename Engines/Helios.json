@@ -27,7 +27,6 @@
       "test_max_games": 58000,
       "base_bench": 1,
       "dev_bench": 1,
-      "test_bounds": "[0.00, 2.00]"
     }
   },
 
