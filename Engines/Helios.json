@@ -26,11 +26,7 @@
             "both_options"      : "Threads=3 Hash=512",
             "both_time_control" : "6.0+0.06",
             "workload_size"     : 32,
-            "test_bounds"       : "[0.00, 2.00]",
             "test_max_games"    : 58000,
-            "base_branch"       : "main",
-            "base_bench"        : "15000000",
-            "dev_bench"         : "15000000"
         }
     },
 
