@@ -1,6 +1,6 @@
 {
   "private": false,
-  "nps": 5892358,
+  "nps": 7814039,
   "source": "https://github.com/tbreese3/Helios",
 
   "build": {
@@ -24,10 +24,10 @@
 
     "58k-3T": {
       "both_options":      "Threads=2 Hash=512",
-      "both_time_control": "6.0+0.06",
+      "both_time_control": "4.0+0.04",
       "workload_size":     32,
       "test_bounds":       "[0.00, 2.00]",
-      "test_max_games":    58000,
+      "test_max_games":    40000,
       "base_branch":       "main",
       "base_bench":        "5374882",
       "dev_bench":         "5374882"
