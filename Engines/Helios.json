@@ -1,6 +1,6 @@
 {
   "private": false,
-  "nps": 7814039,
+  "nps": 36300000,
   "source": "https://github.com/tbreese3/Helios",
 
   "build": {
@@ -22,7 +22,7 @@
       "dev_bench":      "48521573"
     },
 
-    "58k-3T": {
+    "PR": {
       "both_options":      "Threads=2 Hash=512",
       "both_time_control": "4.0+0.04",
       "workload_size":     32,
