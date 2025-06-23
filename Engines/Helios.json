@@ -1,6 +1,6 @@
 {
   "private": false,
-  "nps": 15000000,
+  "nps": 9000000,
   "source": "https://github.com/tbreese3/Helios",
   "base_bench": 6261988,
   "dev_bench":  6261988,
