@@ -946,6 +946,9 @@ def server_request_workload(config):
     target   = utils.url_join(config.server, 'clientGetWorkload')
     response = requests.post(target, data=payload, timeout=TIMEOUT_HTTP)
 
+    print('[DEBUG] HTTP', response.status_code)
+    print('[DEBUG] Body', response.text.strip()[:500])   # truncate long payloads
+
     # Server errors produce garbage back, which we should not alarm a user with
     try: response = response.json()
     except json.decoder.JSONDecodeError:

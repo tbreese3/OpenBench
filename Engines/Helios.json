@@ -7,7 +7,7 @@
     "path": "",
     "compilers": ["make"],
     "cpuflags": ["AVX2", "POPCNT"],
-    "systems": ["Linux"]
+    "systems": ["Linux", "Windows"]
   },
 
   "test_presets": {
@@ -23,11 +23,9 @@
     },
 
     "PR": {
-      "both_options":      "Threads=2 Hash=512",
-      "both_time_control": "4.0+0.04",
+      "both_options":      "Threads=1 Hash=8",
+      "both_time_control": "5.0+0.05",
       "workload_size":     32,
-      "test_bounds":       "[0.00, 2.00]",
-      "test_max_games":    40000,
       "base_branch":       "main",
       "base_bench":        "48521573",
       "dev_bench":         "48521573"
